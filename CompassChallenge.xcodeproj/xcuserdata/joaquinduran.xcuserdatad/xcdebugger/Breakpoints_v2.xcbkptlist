@@ -7,107 +7,62 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C0468341-7E4B-4D60-ADA8-B074016FDC0E"
+            uuid = "14FD11FD-C94C-43C2-940E-2EBE31ECF296"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CompassChallenge/Views/EmojiViewModel.swift"
+            filePath = "CompassChallenge/Service/EmojiService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "fetchEmojis()"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "fetchAndStoreEmojis()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "C0468341-7E4B-4D60-ADA8-B074016FDC0E - 4ffbd32237f13ca2"
+                  uuid = "14FD11FD-C94C-43C2-940E-2EBE31ECF296 - b1d2b09456479245"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in CompassChallenge.EmojiViewModel.fetchEmojis() -&gt; ()"
+                  symbolName = "(1) suspend resume partial function for CompassChallenge.EmojiServiceImplementation.fetchAndStoreEmojis() async throws -&gt; Swift.Array&lt;CompassChallenge.Emoji&gt;"
                   moduleName = "CompassChallenge"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joaquinduran/Repositories/CompassChallenge/CompassChallenge/Views/EmojiViewModel.swift"
+                  urlString = "file:///Users/joaquinduran/Repositories/CompassChallenge/CompassChallenge/Service/EmojiService.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "148">
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "80">
                </Location>
                <Location
-                  uuid = "C0468341-7E4B-4D60-ADA8-B074016FDC0E - bce431ba13d71cf2"
+                  uuid = "14FD11FD-C94C-43C2-940E-2EBE31ECF296 - 6a13a9633cb0314a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; () in closure #1 @Sendable () async -&gt; () in CompassChallenge.EmojiViewModel.fetchEmojis() -&gt; ()"
+                  symbolName = "(2) await resume partial function for CompassChallenge.EmojiServiceImplementation.fetchAndStoreEmojis() async throws -&gt; Swift.Array&lt;CompassChallenge.Emoji&gt;"
                   moduleName = "CompassChallenge"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joaquinduran/Repositories/CompassChallenge/CompassChallenge/Views/EmojiViewModel.swift"
+                  urlString = "file:///Users/joaquinduran/Repositories/CompassChallenge/CompassChallenge/Service/EmojiService.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "52">
-               </Location>
-               <Location
-                  uuid = "C0468341-7E4B-4D60-ADA8-B074016FDC0E - 716ec792f53790a8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in CompassChallenge.EmojiViewModel.fetchEmojis() -&gt; ()"
-                  moduleName = "CompassChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joaquinduran/Repositories/CompassChallenge/CompassChallenge/Views/EmojiViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "96">
-               </Location>
-               <Location
-                  uuid = "C0468341-7E4B-4D60-ADA8-B074016FDC0E - ee1df462b604b8fd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in CompassChallenge.EmojiViewModel.fetchEmojis() -&gt; ()"
-                  moduleName = "CompassChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joaquinduran/Repositories/CompassChallenge/CompassChallenge/Views/EmojiViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
                   offsetFromSymbolStart = "40">
                </Location>
                <Location
-                  uuid = "C0468341-7E4B-4D60-ADA8-B074016FDC0E - 4ffbd32237f13ca2"
+                  uuid = "14FD11FD-C94C-43C2-940E-2EBE31ECF296 - 2420c3703c28de47"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in CompassChallenge.EmojiViewModel.fetchEmojis() -&gt; ()"
+                  symbolName = "(3) suspend resume partial function for CompassChallenge.EmojiServiceImplementation.fetchAndStoreEmojis() async throws -&gt; Swift.Array&lt;CompassChallenge.Emoji&gt;"
                   moduleName = "CompassChallenge"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joaquinduran/Repositories/CompassChallenge/CompassChallenge/Views/EmojiViewModel.swift"
+                  urlString = "file:///Users/joaquinduran/Repositories/CompassChallenge/CompassChallenge/Service/EmojiService.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "36">
-               </Location>
-               <Location
-                  uuid = "C0468341-7E4B-4D60-ADA8-B074016FDC0E - 2282588bd11216b9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in CompassChallenge.EmojiViewModel.fetchEmojis() -&gt; ()"
-                  moduleName = "CompassChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joaquinduran/Repositories/CompassChallenge/CompassChallenge/Views/EmojiViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "72">
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "64">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -115,94 +70,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2398DDA2-EF12-46EE-B957-9B8C81D79393"
+            uuid = "7573A1EF-9ED9-4F44-8716-ED9230E7C12D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CompassChallenge/Views/EmojiViewModel.swift"
+            filePath = "CompassChallenge/Service/EmojiService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "fetchEmojis()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2398DDA2-EF12-46EE-B957-9B8C81D79393 - acaed1d7a712a02e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CompassChallenge.EmojiViewModel.fetchEmojis() -&gt; ()"
-                  moduleName = "CompassChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joaquinduran/Repositories/CompassChallenge/CompassChallenge/Views/EmojiViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "120">
-               </Location>
-               <Location
-                  uuid = "2398DDA2-EF12-46EE-B957-9B8C81D79393 - 2a11e5c0f4c8fcf6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable () async -&gt; () in CompassChallenge.EmojiViewModel.fetchEmojis() -&gt; ()"
-                  moduleName = "CompassChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joaquinduran/Repositories/CompassChallenge/CompassChallenge/Views/EmojiViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "176">
-               </Location>
-               <Location
-                  uuid = "2398DDA2-EF12-46EE-B957-9B8C81D79393 - 716ec792f537900d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in CompassChallenge.EmojiViewModel.fetchEmojis() -&gt; ()"
-                  moduleName = "CompassChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joaquinduran/Repositories/CompassChallenge/CompassChallenge/Views/EmojiViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "48">
-               </Location>
-               <Location
-                  uuid = "2398DDA2-EF12-46EE-B957-9B8C81D79393 - acaed1d7a712a02e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CompassChallenge.EmojiViewModel.fetchEmojis() -&gt; ()"
-                  moduleName = "CompassChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joaquinduran/Repositories/CompassChallenge/CompassChallenge/Views/EmojiViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "92">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BF60AF98-781C-49AF-B1BE-5221D66E67E9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CompassChallenge/Views/EmojiViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "fetchEmojis()"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "fetchFromLocalCache()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
