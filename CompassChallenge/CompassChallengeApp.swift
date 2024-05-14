@@ -24,9 +24,11 @@ struct CompassChallengeApp: App {
     }()
 
     var body: some Scene {
+        let emojiService = EmojiServiceImplementation()
+        let viewModel = EmojiViewModel(service: emojiService)
+
         WindowGroup {
-            ContentView()
+            EmojiView(viewModel: viewModel)
         }
-        .modelContainer(sharedModelContainer)
     }
 }

@@ -15,6 +15,11 @@
 		7AC4082D2BF3BD9C003DDE69 /* CompassChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4082C2BF3BD9C003DDE69 /* CompassChallengeTests.swift */; };
 		7AC408372BF3BD9C003DDE69 /* CompassChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC408362BF3BD9C003DDE69 /* CompassChallengeUITests.swift */; };
 		7AC408392BF3BD9C003DDE69 /* CompassChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC408382BF3BD9C003DDE69 /* CompassChallengeUITestsLaunchTests.swift */; };
+		7AC408472BF3E3A6003DDE69 /* EmojiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC408462BF3E3A6003DDE69 /* EmojiService.swift */; };
+		7AC4084A2BF3E4BF003DDE69 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC408492BF3E4BF003DDE69 /* Model.swift */; };
+		7AC4084D2BF3E8F9003DDE69 /* Emoji+SwiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4084C2BF3E8F9003DDE69 /* Emoji+SwiftData.swift */; };
+		7AC408502BF3EADA003DDE69 /* EmojiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4084F2BF3EADA003DDE69 /* EmojiViewModel.swift */; };
+		7AC408522BF3EAF7003DDE69 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC408512BF3EAF7003DDE69 /* EmojiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		7AC408322BF3BD9C003DDE69 /* CompassChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompassChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC408362BF3BD9C003DDE69 /* CompassChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassChallengeUITests.swift; sourceTree = "<group>"; };
 		7AC408382BF3BD9C003DDE69 /* CompassChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7AC408462BF3E3A6003DDE69 /* EmojiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiService.swift; sourceTree = "<group>"; };
+		7AC408492BF3E4BF003DDE69 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7AC4084C2BF3E8F9003DDE69 /* Emoji+SwiftData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Emoji+SwiftData.swift"; sourceTree = "<group>"; };
+		7AC4084F2BF3EADA003DDE69 /* EmojiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiViewModel.swift; sourceTree = "<group>"; };
+		7AC408512BF3EAF7003DDE69 /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,10 @@
 		7AC408172BF3BD9B003DDE69 /* CompassChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				7AC4084E2BF3EAD5003DDE69 /* Views */,
+				7AC4084B2BF3E8E0003DDE69 /* SwiftData */,
+				7AC408482BF3E4BB003DDE69 /* Model */,
+				7AC408452BF3E39D003DDE69 /* Service */,
 				7AC408182BF3BD9B003DDE69 /* CompassChallengeApp.swift */,
 				7AC4081A2BF3BD9B003DDE69 /* ContentView.swift */,
 				7AC4081C2BF3BD9B003DDE69 /* Item.swift */,
@@ -130,6 +144,39 @@
 				7AC408382BF3BD9C003DDE69 /* CompassChallengeUITestsLaunchTests.swift */,
 			);
 			path = CompassChallengeUITests;
+			sourceTree = "<group>";
+		};
+		7AC408452BF3E39D003DDE69 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7AC408462BF3E3A6003DDE69 /* EmojiService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7AC408482BF3E4BB003DDE69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AC408492BF3E4BF003DDE69 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AC4084B2BF3E8E0003DDE69 /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				7AC4084C2BF3E8F9003DDE69 /* Emoji+SwiftData.swift */,
+			);
+			path = SwiftData;
+			sourceTree = "<group>";
+		};
+		7AC4084E2BF3EAD5003DDE69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AC4084F2BF3EADA003DDE69 /* EmojiViewModel.swift */,
+				7AC408512BF3EAF7003DDE69 /* EmojiView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AC4084A2BF3E4BF003DDE69 /* Model.swift in Sources */,
+				7AC408522BF3EAF7003DDE69 /* EmojiView.swift in Sources */,
+				7AC408502BF3EADA003DDE69 /* EmojiViewModel.swift in Sources */,
 				7AC4081B2BF3BD9B003DDE69 /* ContentView.swift in Sources */,
 				7AC4081D2BF3BD9B003DDE69 /* Item.swift in Sources */,
+				7AC408472BF3E3A6003DDE69 /* EmojiService.swift in Sources */,
+				7AC4084D2BF3E8F9003DDE69 /* Emoji+SwiftData.swift in Sources */,
 				7AC408192BF3BD9B003DDE69 /* CompassChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
