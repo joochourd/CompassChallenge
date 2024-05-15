@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7AC408192BF3BD9B003DDE69 /* CompassChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC408182BF3BD9B003DDE69 /* CompassChallengeApp.swift */; };
-		7AC4081D2BF3BD9B003DDE69 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4081C2BF3BD9B003DDE69 /* Item.swift */; };
 		7AC4081F2BF3BD9C003DDE69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC4081E2BF3BD9C003DDE69 /* Assets.xcassets */; };
 		7AC408232BF3BD9C003DDE69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC408222BF3BD9C003DDE69 /* Preview Assets.xcassets */; };
 		7AC4082D2BF3BD9C003DDE69 /* CompassChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4082C2BF3BD9C003DDE69 /* CompassChallengeTests.swift */; };
@@ -41,7 +40,6 @@
 /* Begin PBXFileReference section */
 		7AC408152BF3BD9B003DDE69 /* CompassChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompassChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC408182BF3BD9B003DDE69 /* CompassChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassChallengeApp.swift; sourceTree = "<group>"; };
-		7AC4081C2BF3BD9B003DDE69 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		7AC4081E2BF3BD9C003DDE69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AC408202BF3BD9C003DDE69 /* CompassChallenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CompassChallenge.entitlements; sourceTree = "<group>"; };
 		7AC408222BF3BD9C003DDE69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 				7AC408482BF3E4BB003DDE69 /* Model */,
 				7AC408452BF3E39D003DDE69 /* Service */,
 				7AC408182BF3BD9B003DDE69 /* CompassChallengeApp.swift */,
-				7AC4081C2BF3BD9B003DDE69 /* Item.swift */,
 				7AC4081E2BF3BD9C003DDE69 /* Assets.xcassets */,
 				7AC408202BF3BD9C003DDE69 /* CompassChallenge.entitlements */,
 				7AC408212BF3BD9C003DDE69 /* Preview Content */,
@@ -309,7 +306,6 @@
 				7AC4084A2BF3E4BF003DDE69 /* Model.swift in Sources */,
 				7AC408522BF3EAF7003DDE69 /* EmojiView.swift in Sources */,
 				7AC408502BF3EADA003DDE69 /* EmojiViewModel.swift in Sources */,
-				7AC4081D2BF3BD9B003DDE69 /* Item.swift in Sources */,
 				7AC408472BF3E3A6003DDE69 /* EmojiService.swift in Sources */,
 				7AC4084D2BF3E8F9003DDE69 /* Emoji+SwiftData.swift in Sources */,
 				7AC408192BF3BD9B003DDE69 /* CompassChallengeApp.swift in Sources */,
