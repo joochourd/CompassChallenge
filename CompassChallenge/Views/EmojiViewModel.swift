@@ -5,6 +5,7 @@ import Combine
 class EmojiViewModel: ObservableObject {
     @Published var categories = [String: [Emoji]]()
     @Published var isLoading = false
+    private var hasData = false
     private var emojiService: EmojiService
     private var cancellables = Set<AnyCancellable>()
 
@@ -13,12 +14,14 @@ class EmojiViewModel: ObservableObject {
     }
 
     func fetchEmojis() {
+        if hasData == true { return }
         isLoading = true
         Task {
             do {
                 let emojis = try await emojiService.fetchAndStoreEmojis()
                 self.isLoading = false
                 self.categorizeEmojis(emojis)
+                self.hasData = true
             } catch {
                 self.isLoading = false
                 print("Failed to fetch emojis: \(error)")
