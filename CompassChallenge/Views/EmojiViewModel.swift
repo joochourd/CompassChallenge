@@ -7,7 +7,6 @@ class EmojiViewModel: ObservableObject {
     @Published var isLoading = false
     private var hasData = false
     private var emojiService: EmojiService
-    private var cancellables = Set<AnyCancellable>()
 
     init(service: EmojiService) {
         self.emojiService = service
